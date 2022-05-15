@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using E_Ticaret.Data;
 using E_Ticaret.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace E_Ticaret.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = Diger.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;

@@ -9,10 +9,12 @@ using E_Ticaret.Data;
 using E_Ticaret.Models;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace E_Ticaret.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = Diger.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly ApplicationDbContext _context;

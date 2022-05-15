@@ -46,6 +46,16 @@ namespace E_Ticaret
                 options.LogoutPath = $"/Identity/Account/Logout";
                 options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
             });
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "2407982866005448";
+                options.AppSecret = "9ffd6278e95a9f3ae5b70f6526f0fc97";
+            });
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "98925345590-d6g8658vqgniv2017a7lh7337189qnlr.apps.googleusercontent.com";
+                options.ClientSecret = "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";
+            });
 
         }
 

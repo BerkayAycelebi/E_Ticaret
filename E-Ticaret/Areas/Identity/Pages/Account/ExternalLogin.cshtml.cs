@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using E_Ticaret.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -51,6 +52,15 @@ namespace E_Ticaret.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+            [Required]
+            public string Name { get; set; }
+            [Required]
+            public string Surname { get; set; }
+            public string Adres { get; set; }
+            public string Sehir { get; set; }
+            public string Semt { get; set; }
+            public string PostaKodu { get; set; }
+            public string TelefonNo { get; set; }
         }
 
         public IActionResult OnGetAsync()
@@ -121,7 +131,19 @@ namespace E_Ticaret.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser
+                {
+                    UserName = Input.Email,
+                    Email = Input.Email,
+                    Adres = Input.Adres,
+                    Sehir = Input.Sehir,
+                    Semt = Input.Semt,
+                    Name = Input.Name,
+                    Surname = Input.Surname,
+                    PhoneNumber = Input.TelefonNo,
+                    PostaKodu = Input.PostaKodu,
+
+                };
 
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
@@ -129,6 +151,7 @@ namespace E_Ticaret.Areas.Identity.Pages.Account
                     result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {
+                        await _userManager.AddToRoleAsync(user, Diger.Role_Birey);
                         _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
 
                         var userId = await _userManager.GetUserIdAsync(user);

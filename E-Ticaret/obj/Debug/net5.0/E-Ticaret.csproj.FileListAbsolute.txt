@@ -491,3 +491,5 @@ C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Id
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Delete.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll

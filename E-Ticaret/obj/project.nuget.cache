@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d5TxQUmwbLEKjiuxSHLk8sQRtAzwNjiJu5WfkTE8gPgilrHiZfQA5mhui4xmq8d6xaf1DSETuWBnCRCAjFkTGw==",
+  "dgSpecHash": "vYUvg1Vpx2RIa9CoOv0AZ6BwpYowcQ/znh1J1IYz9UmqDB5aX9E9l9K0ze0gETwo6X25h9uqbTOgXeRYCrkPnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\E-Ticaret\\E-Ticaret\\E-Ticaret.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,8 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\sendgrid\\9.25.2\\sendgrid.9.25.2.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

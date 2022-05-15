@@ -1,4 +1,5 @@
-﻿using E_Ticaret.Models;
+﻿using E_Ticaret.Data;
+using E_Ticaret.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,15 +14,18 @@ namespace E_Ticaret.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var product = _db.Products.Where(i=>i.IsHome).ToList();
+            return View(product);
         }
 
         public IActionResult Privacy()

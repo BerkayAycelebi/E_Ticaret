@@ -438,7 +438,15 @@ C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Cu
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
-C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views - Copy\_ViewImports.cshtml.g.cs
-C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views - Copy\_ViewStart.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Details.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Edit.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs

@@ -498,3 +498,11 @@ C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\StarkbankEcdsa
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Success.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\Iyzipay.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Cart\SiparisTamam.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Kargolanan.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Onaylanan.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Beklenen.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Details.cshtml.g.cs

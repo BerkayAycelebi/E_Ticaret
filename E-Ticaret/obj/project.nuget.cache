@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vYUvg1Vpx2RIa9CoOv0AZ6BwpYowcQ/znh1J1IYz9UmqDB5aX9E9l9K0ze0gETwo6X25h9uqbTOgXeRYCrkPnQ==",
+  "dgSpecHash": "NFi0y9Ck3m2jMKnqkwDvZquHQTx9lmYgExlJTxs0W//hZTniDzRQ7njQnJnb7eLzsH218KCS0U27/XFDnL4X1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\E-Ticaret\\E-Ticaret\\E-Ticaret.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\iyzipay\\2.1.39\\iyzipay.2.1.39.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\5.0.12\\microsoft.aspnetcore.authentication.facebook.5.0.12.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.12\\microsoft.aspnetcore.authentication.google.5.0.12.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",

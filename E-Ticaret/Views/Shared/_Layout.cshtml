@@ -43,12 +43,18 @@
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Kategoriler</a></li>
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Ürünler</a></li>
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Kullanıcılar</a></li>
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Order" asp-action="Index">Siparişler</a></li>
 
                                     </ul>
 
                                 </li>
                             }
-
+                            else if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" asp-area="Admin" asp-controller="Order" asp-action="Index">Siparişler</a>
+                                </li>
+                            }
                             @if (User.Identity.IsAuthenticated && HttpContextAccessor.HttpContext.Session.GetInt32(Diger.ssShoppingCart) != null)
                             {
                                 <li style="color:white">

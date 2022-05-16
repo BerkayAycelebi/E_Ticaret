@@ -13,6 +13,7 @@ using E_Ticaret.Email;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System;
 
 namespace E_Ticaret
 {
@@ -37,7 +38,7 @@ namespace E_Ticaret
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddSingleton<IEmailSender, EmailSender>();
-            //services.Configure<EmailOptions>(Configuration);
+            services.Configure<EmailOptions>(Configuration);
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.ConfigureApplicationCookie(options =>
@@ -55,6 +56,12 @@ namespace E_Ticaret
             {
                 options.ClientId = "98925345590-d6g8658vqgniv2017a7lh7337189qnlr.apps.googleusercontent.com";
                 options.ClientSecret = "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";
+            });
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
             });
 
         }
@@ -77,6 +84,7 @@ namespace E_Ticaret
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthentication();
             app.UseAuthorization();

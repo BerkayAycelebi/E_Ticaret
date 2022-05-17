@@ -506,3 +506,11 @@ C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Ad
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Onaylanan.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Beklenen.cshtml.g.cs
 C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Admin\Views\Order\Details.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\CategoryDetails.cshtml.g.cs
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\NToastNotify.Views.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\bin\Debug\net5.0\NToastNotify.dll
+C:\Users\LENOVO\source\repos\E-Ticaret\E-Ticaret\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Search.cshtml.g.cs

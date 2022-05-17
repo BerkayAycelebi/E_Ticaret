@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
+using NToastNotify;
 
 namespace E_Ticaret
 {
@@ -33,7 +34,12 @@ namespace E_Ticaret
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
-
+            services.AddMvc().AddNToastNotifyToastr(new ToastrOptions()
+            {
+                CloseButton=true,
+                PositionClass=ToastPositions.TopRight,
+                PreventDuplicates=true
+            });
 
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();

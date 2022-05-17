@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using E_Ticaret.Data;
 using E_Ticaret.Models;
 using Microsoft.AspNetCore.Authorization;
+using NToastNotify;
 
 namespace E_Ticaret.Areas.Admin.Controllers
 {
@@ -16,10 +17,12 @@ namespace E_Ticaret.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IToastNotification _toast;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(ApplicationDbContext context, IToastNotification toast)
         {
             _context = context;
+            _toast = toast;
         }
 
         // GET: Admin/Categorie
@@ -63,6 +66,7 @@ namespace E_Ticaret.Areas.Admin.Controllers
             {
                 _context.Add(category);
                 await _context.SaveChangesAsync();
+                _toast.AddSuccessToastMessage("Ekleme İşlemi Başarılı");
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -102,6 +106,7 @@ namespace E_Ticaret.Areas.Admin.Controllers
                 {
                     _context.Update(category);
                     await _context.SaveChangesAsync();
+                    _toast.AddSuccessToastMessage("Güncelleme İşlemi Başarılı");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
